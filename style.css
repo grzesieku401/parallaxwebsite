@@ -1,1 +1,76 @@
 @import url('reset.css');
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: #d9dad8;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  line-height: 2.4rem;
+}
+
+section{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 40vh;
+  padding-top: 30vh;
+  padding-bottom: 30vh;
+  opacity: .7;
+
+}
+
+.withimage1{
+  background-image: url('tlo3.jpg');
+}
+.withimage2{
+  background-image: url('tlo2.jpg');
+  height: 1vh;
+}
+.withimage3{
+  background-image: url('tlo1.jpg');
+  height: 1vh
+}
+.withimage4{
+  background-image: url('tlo3.jpg');
+}
+
+
+.insideimage{
+  width: 100%;
+  text-align: center;
+}
+
+.box{
+  width: 100%;
+  background-color: #73777a;
+  text-align: center;
+
+  z-index: 2;
+}
+.importantdiv{
+  background-color: #e0e0dd;
+  color: #767b7d;
+}
+
+span{
+  color: white;
+  padding: 2rem;
+  font-size: 4rem;
+}
+
+.otherspan{
+  background-color: #817f80;
+}
+
+h2{
+  font-size: 3rem;
+  padding-top: 4rem;
+}
+p{
+  padding: 2rem 2rem 4rem 2rem;
+  font-size: 1.7rem;
+}
